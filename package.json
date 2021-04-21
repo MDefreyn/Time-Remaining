@@ -1,0 +1,16 @@
+{
+  "name": "time_remaining",
+  "version": "1.0.0",
+  "description": "App para controle de tempo",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/clock.ico --out=packages"
+  },
+  "keywords": [],
+  "author": "Maiko Rodrigo Defreyn",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.4"
+  }
+}
